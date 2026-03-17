@@ -14,7 +14,7 @@ img {
 header {
     width: 100%;
     padding: 20px 50px;
-    background-color: lightgrey;
+    background-color: #a7a7a7;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,11 +75,12 @@ header i img {
     width: 200px;
     height: 220px;
     margin-bottom: 15px;
+    border-radius: 10%;
 }
 
-.products h2 {
+.products h3 {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 1.2rem;
     margin-bottom: 5px;
 }
 
@@ -118,7 +119,7 @@ header i img {
     box-sizing: border-box;
 }
 
-.cart ing {
+.cart img {
     width: 60px;
 }
 
