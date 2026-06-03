@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,13 +10,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="index.js" defer></script>
     <title>Tienda Adidas</title>
   </head>
   <body>
     <header>
       <i><img src="./img/menu.png" alt="icono menu" /></i>
       <img src="./img/logo.png" alt="logo adidas" />
-      <i><img src="./img/cart.png" alt="icono Carrito" /></i>
+      <div class="cart-badge">
+        <i><img src="./img/cart.png" alt="icono Carrito" /></i>
+        <p>0</p>
+      </div>
     </header>
 
     <main>
@@ -30,58 +34,80 @@
           <img src="./img/jersey.png" alt="jersey" />
           <h3>Jersey México 2025</h3>
           <p>$1000</p>
+          <button class="add-to-cart">Agregar al carrito</button>
         </article>
 
         <article>
           <img src="./img/lg2.png" alt="LG2" />
           <h3>Adidas LG2</h3>
           <p>$2000</p>
+          <button class="add-to-cart">Agregar al carrito</button>
         </article>
 
         <article>
           <img src="./img/hoddie.png" alt="hoddie" />
           <h3>hoddie Adidas kick boxing</h3>
           <p>$1000</p>
+          <button class="add-to-cart">Agregar al carrito</button>
         </article>
 
         <article>
           <img src="./img/lg2.png" alt="LG2" />
           <h3>Adidas LG2</h3>
           <p>$2000</p>
+          <button class="add-to-cart">Agregar al carrito</button>
         </article>
 
         <article>
           <img src="./img/jersey.png" alt="jersey" />
           <h3>Jersey México 2025</h3>
           <p>$1000</p>
+          <button class="add-to-cart">Agregar al carrito</button>
         </article>
 
         <article>
           <img src="./img/hoddie.png" alt="hoddie" />
           <h3>hoddie Adidas kick boxing</h3>
           <p>$2000</p>
+          <button class="add-to-cart">Agregar al carrito</button>
         </article>
 
         <article>
           <img src="./img/jersey.png" alt="jersey" />
           <h3>Jersey México 2025</h3>
           <p>$1000</p>
+          <button class="add-to-cart">Agregar al carrito</button>
         </article>
 
         <article>
           <img src="./img/lg2.png" alt="LG2" />
           <h3>Adidas LG2</h3>
           <p>$2000</p>
+          <button class="add-to-cart">Agregar al carrito</button>
         </article>
+      </section>
+
+      <section class="menu">
+        <nav class="menu__nav">
+          <div>
+            <img
+              class="close-icon"
+              src="./img/cross-svgrepo-com.svg"
+              alt="Cerrar"
+            />
+          </div>
+          <a href="#">Hombre</a>
+          <a href="#">Mujer</a>
+          <a href="#">Niños</a>
+          <a href="#">Accesorios</a>
+          <a href="#">Ofertas</a>
+        </nav>
       </section>
 
       <section class="cart">
         <h2>CARRITO</h2>
-        <div>
-          <img src="./img/chamarra.png" alt="Icono quitar" />
-          <p>chamarra</p>
-          <p>$1,000</p>
-          <i><img src="./img/trash-can.png" alt="Icono quitar" class="delete-icon"></i>
+        <div class="cart__items">
+          <p>Tu carrito está vacío</p>
         </div>
       </section>
     </main>
